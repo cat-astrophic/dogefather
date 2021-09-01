@@ -23,8 +23,6 @@ s1snl = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentime
 s2snl = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentiment2_snl.csv')
 s1doge = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentiment_doge.csv')
 s2doge = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentiment2_doge.csv')
-s1 = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentiment.csv')
-s2 = pd.read_csv('C:/Users/' + username + '/Documents/Data/dogefather/sentiment2.csv')
 
 # Merging the data sets
 
@@ -56,35 +54,22 @@ doge2 = pd.merge(doge2, s2snl)
 doge1 = pd.merge(doge1, s1doge)
 doge2 = pd.merge(doge2, s2doge)
 
-DOGE1 = pd.merge(doge, s1)
-DOGE2 = pd.merge(doge, s2)
-
 # Creating ln prices and volumes
 
 ln_close1 = [np.log(p) for p in doge1.close]
 ln_close2 = [np.log(p) for p in doge2.close]
-ln_c1 = [np.log(p) for p in DOGE1.close]
-ln_c2 = [np.log(p) for p in DOGE2.close]
 
 ln_close1 = pd.Series(ln_close1, name = 'Ln_Price')
 ln_close2 = pd.Series(ln_close2, name = 'Ln_Price')
-ln_c1 = pd.Series(ln_c1, name = 'Ln_Price')
-ln_c2 = pd.Series(ln_c2, name = 'Ln_Price')
 
 ln_vol1 = [np.log(v) for v in doge1.Volume]
 ln_vol2 = [np.log(v) for v in doge2.Volume]
-ln_v1 = [np.log(v) for v in DOGE1.Volume]
-ln_v2 = [np.log(v) for v in DOGE2.Volume]
 
 ln_vol1 = pd.Series(ln_vol1, name = 'Ln_Trading_Volume')
 ln_vol2 = pd.Series(ln_vol2, name = 'Ln_Trading_Volume')
-ln_v1 = pd.Series(ln_v1, name = 'Ln_Trading_Volume')
-ln_v2 = pd.Series(ln_v2, name = 'Ln_Trading_Volume')
 
 doge1 = pd.concat([doge1, ln_close1, ln_vol1], axis = 1)
 doge2 = pd.concat([doge2, ln_close2, ln_vol2], axis = 1)
-DOGE1 = pd.concat([DOGE1, ln_c1, ln_v1], axis = 1)
-DOGE2 = pd.concat([DOGE2, ln_c2, ln_v2], axis = 1)
 
 # VARs
 
