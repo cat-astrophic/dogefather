@@ -29,13 +29,13 @@ Cary, Michael. "Down with the# Dogefather: Evidence of a Cryptocurrency Respondi
 
 ### Bibtex:
 
-@article{cary2021down,
-&nbsp;&nbsp;&nbsp;&nbsp;title={Down with the \#Dogefather: Evidence of a Cryptocurrency Responding in Real Time to a Crypto-Tastemaker},
-&nbsp;&nbsp;&nbsp;&nbsp;author={Cary, Michael},
-&nbsp;&nbsp;&nbsp;&nbsp;journal={Journal of Theoretical and Applied Electronic Commerce Research},
-&nbsp;&nbsp;&nbsp;&nbsp;volume={16},
-&nbsp;&nbsp;&nbsp;&nbsp;number={6},
-&nbsp;&nbsp;&nbsp;&nbsp;pages={2230--2240},
-&nbsp;&nbsp;&nbsp;&nbsp;year={2021},
-&nbsp;&nbsp;&nbsp;&nbsp;publisher={Multidisciplinary Digital Publishing Institute}
+@article{cary2021down,\\
+&nbsp;&nbsp;&nbsp;&nbsp;title={Down with the \#Dogefather: Evidence of a Cryptocurrency Responding in Real Time to a Crypto-Tastemaker},\\
+&nbsp;&nbsp;&nbsp;&nbsp;author={Cary, Michael},\\
+&nbsp;&nbsp;&nbsp;&nbsp;journal={Journal of Theoretical and Applied Electronic Commerce Research},\\
+&nbsp;&nbsp;&nbsp;&nbsp;volume={16},\\
+&nbsp;&nbsp;&nbsp;&nbsp;number={6},\\
+&nbsp;&nbsp;&nbsp;&nbsp;pages={2230--2240},\\
+&nbsp;&nbsp;&nbsp;&nbsp;year={2021},\\
+&nbsp;&nbsp;&nbsp;&nbsp;publisher={Multidisciplinary Digital Publishing Institute}\\
 }
