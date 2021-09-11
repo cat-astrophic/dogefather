@@ -7,7 +7,7 @@ To replicate this project you will need the following Python modules installed:
 * twint
 * nest_asyncio
 * pandas
-* nnumpy
+* numpy
 * nltk
 * pylab
 * statsmodels
