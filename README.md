@@ -4,14 +4,14 @@ This repository contains the code and data from the paper *Down with the #Dogefa
 
 To replicate this project you will need the following Python modules installed:
 
--twint
--nest_asyncio
--pandas
--numpy
--nltk
--pylab
--statsmodels
--wordcloud
+*twint
+*nest_asyncio
+*pandas
+*nnumpy
+*nltk
+*pylab
+*statsmodels
+*wordcloud
 
 To replicate this project, run the scripts in the named order.
 
