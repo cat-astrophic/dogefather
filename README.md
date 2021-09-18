@@ -13,7 +13,7 @@ To replicate this project you will need the following Python modules installed:
 * statsmodels
 * wordcloud
 
-To replicate this project, run the scripts in the named order.
+To replicate this project just run the scripts in the named order.
 
 The raw data from the first script is not included due to size, but is available upon request (see the published paper for contact information). All other data is included in the .zip file.
 
