@@ -1,6 +1,6 @@
 # Down with the #Dogefather
 
-This repository contains the code and data from the paper *Down with the #Dogefather: Evidence of a Cryptocurrency Responding in Real Time to a Crypto-Tastemaker* which was published in the **Journal of Theoretical and Applied Electronic Commerce Research**.
+This repository contains the code and data from the paper *Down with the #Dogefather: Evidence of a Cryptocurrency Responding in Real Time to a Crypto-Tastemaker* which was published as the feature/cover article in its issue of the [**Journal of Theoretical and Applied Electronic Commerce Research**](https://www.mdpi.com/0718-1876/16/6/123).
 
 To replicate this project you will need the following Python modules installed:
 
